@@ -914,3 +914,22 @@ img {
   position: absolute;
   left: 50%;
   margin-left: -480px; }
+
+.clothes-pics figure {
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.3s ease-in-out; }
+  .clothes-pics figure.is-showing {
+    opacity: 1;
+    transform: translateX(0); }
+
+.large-window {
+  height: 640px;
+  background-image: url("/images/model2.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  margin-top: 100px;
+  border-radius: 50%; }
